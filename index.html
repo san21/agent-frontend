@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- License Notice -->
+<!-- 
+Hey there! This code is free to use for all participants of the EPAM bootcamp
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPAM bootcamp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--link rel="icon" type="image/x-icon" href="favicon.png"-->
+</head>
+<body>
+    <div class="logo">
+        Bootcamp - Agentic AI
+    </div>
+
+    <div class="menu">
+        <a href="#product">Program</a>
+        <a href="#feature-unique">Why Agentic AI?</a>
+        <a href="#user-testimonials">Student Feedback</a>
+    </div>
+
+    <div class="hero" id="home">
+        <h1>Build Smarter AI Agents</h1>
+        <h1>with Agentic Workflows</h1>
+        <p>Our bootcamp is crafted to help students master the creation of autonomous, goal-driven AI agents capable of reasoning, planning, and taking actions. 
+            Whether you’re new to AI or aiming to sharpen your skills, you’ll learn to design agents that integrate tools, make decisions, and adapt to complex tasks. 
+            Through guided mentorship, collaborative projects, and cutting-edge frameworks, you’ll gain hands-on experience to become confident in building production-ready Agentic AI systems.</p>
+        <div class="buttons">
+            <a href="#get-started">Get Started</a>
+            <a href="#contact-us" class="secondary">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="features" id="product">
+        <h3>Bootcamp Highlights</h3>
+        <div class="feature">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Agentic AI Foundations</h3>
+            <p>Understand the theory and architecture of autonomous agents, including planning, reasoning, and multi-step decision-making processes.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-tools"></i>
+            <h3>Project-Based Learning</h3>
+            <p>Work on real-world scenarios where agents use APIs, connect to external tools, and operate in simulated or live environments.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h3>Expert-Led Sessions</h3>
+            <p>Learn from AI practitioners who have deployed agentic systems in industry, gaining insights into best practices and common pitfalls.</p>
+        </div>
+    </div>
+    
+
+    <div class="feature-with-image" id="feature-unique">
+        <div class="feature-image">
+            <img src="chatbot.png" alt="Feature Image" />
+        </div>
+        <div class="feature-content">
+            <h3>Intelligent, Goal-Oriented Design</h3>
+            <p>Our agents are built with a retrieval-augmented and reasoning-first approach, enabling them to dynamically plan and execute tasks. By combining large language models with tool usage, memory, and decision loops, students learn to create systems that don’t just respond — they act intelligently toward achieving defined goals.</p>
+        </div>
+    </div>
+
+    <div class="testimonials" id="user-testimonials">
+        <h3>What Our Students Say</h3>
+        <div class="testimonial">
+            <p>"Before this bootcamp, I only knew about chatbots. Now, I can design multi-step AI agents that actually complete tasks end-to-end."</p>
+            <span>- Alex P.</span>
+        </div>
+        <div class="testimonial">
+            <p>"The hands-on projects with real APIs made me feel job-ready. I built an AI agent that schedules meetings and summarizes them instantly."</p>
+            <span>- Priya S.</span>
+        </div>
+        <div class="testimonial">
+            <p>"The instructors really know the field. I learned frameworks like LangChain and OpenAI Functions and used them to deploy working agents."</p>
+            <span>- Marcus L.</span>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2025 <EPAM>. All rights reserved.</p>
+    </div>
+
+    <!-- Chat button and widget -->
+    <button id="chat-button">💬</button>
+    <div id="chat-widget">
+        <div id="chat-header">Chat with us</div>
+        <div id="chat-messages"></div>
+        <div id="chat-input">
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
