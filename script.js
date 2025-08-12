@@ -26,7 +26,7 @@ function sendMessage() {
         addMessage('user', message);
         input.value = '';
         
-        fetch('https://mai-deploy-plum.vercel.app/life_chat', {
+        fetch('https://agent-backend-six.vercel.app/life_chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
